@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane fx:controller="Gebruikersapplicatie.Controller"  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" >
+
+   <children>
+      <ListView fx:id="lv_meldingen" layoutX="15.0" layoutY="14.0" prefHeight="139.0" prefWidth="372.0" />
+      <TextField fx:id="tb_alert" layoutX="15.0" layoutY="157.0" />
+      <Button fx:id="btn_submit" onAction="#handleButtonSubmit" layoutX="210.0" layoutY="157.0" mnemonicParsing="false" text="Button" />
+   </children>
+</AnchorPane>
